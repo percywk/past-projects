@@ -647,7 +647,7 @@ def choose_with_rotated_square(domain, rows, columns, number_of_placed):
 	3: The square will then have points chosen from inside of it
 	'''
 
-	#Create our row/column shit.
+	#Create our row/column.
 	#Coordiantes is a list with [1-A, 2-A, 1-B etc.]
 	coordinates = []
 	alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
