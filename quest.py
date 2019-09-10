@@ -114,7 +114,7 @@ def create_grid(quest_dict):
 	quest_dict['second_ending_position'] = 16
 	quest_dict['second_ending_direction'] = 'RIGHT'
 
-	#Incase the the finder tile chooses a shitty tile I want to be able to choose a different tile
+	#Incase the the finder tile chooses a tile I want to be able to choose a different tile
 	quest_dict['tried_new_tile'] = False
 	quest_dict['move_history'] = []
 	quest_dict['obstacle_list'] = []
