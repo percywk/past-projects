@@ -128,7 +128,7 @@ def find_paths(wavelet_dict):
 
 
 	'''
-	Paths Seem to work can check with this shit.
+	Paths Seem to work can check with this.
 	for key, value in paths.items():
 		print (key)
 		print (value)
