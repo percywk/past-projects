@@ -29,11 +29,11 @@ def call_wavelet_functions():
 	print ("Decompressed: ", decompressed_text)
 	occurrence = find_occurrence(wavelet_dict, "the")
 
-	path = add_leaf(wavelet_dict, "fuck")
+	path = add_leaf(wavelet_dict, "x")
 
-	occurrence = find_occurrence(wavelet_dict, "fuck")
+	occurrence = find_occurrence(wavelet_dict, "x")
 
-	item_found = search_tree_recursion(wavelet_dict, wavelet_dict['tree'].get_root_node(), "fuck", False)
+	item_found = search_tree_recursion(wavelet_dict, wavelet_dict['tree'].get_root_node(), "x", False)
 
 	decompressed_text = decompress_tree(wavelet_dict)
 	print ("Decompressed: ", decompressed_text)
@@ -142,7 +142,7 @@ def find_paths(wavelet_dict):
 				if left_node == value[index + 1] or right_node == value[index + 1]:
 					pass
 				else:
-					print ("FUCK FUCK FUCK")
+					print ("Blah")
 			else:
 				continue
 	'''
