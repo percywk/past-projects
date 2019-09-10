@@ -1096,7 +1096,7 @@ def general_search(node_list, connection_distance_dict, starting_node, ending_no
 		current_node = next_node
 		current_seperation_level = next_seperation_level
 		counter += 1			
-		if counter == 50:		#If I ever get this shit running again. I swear.
+		if counter == 50:		#If I ever get this running again. I swear.
 			break
 
 	return
