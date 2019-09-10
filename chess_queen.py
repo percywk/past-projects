@@ -27,7 +27,6 @@ def call_chess_queen_functions():
 	#winning_shape = analyze_quadrant_exhausted(cleaned, domain)
 	
 	
-	#This will technically work, but is fucking retarded
 	#This is not what I want to be doing with the system
 	#domain = chess_dict['all_tiles']
 	#exhausted = queen_combinatoric(domain, intersecting_dict, remaining_dict)
