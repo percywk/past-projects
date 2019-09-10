@@ -379,7 +379,7 @@ def add_leaf(wavelet_dict, new_information):
 				additional_node, new_leaf = add_node_to_tree_rework(current_node, new_information, direction)
 				node_added = True
 		else:
-			print ("STUPID FUCKING ERROR")
+			print ("ERROR")
 		path.append(current_node)
 
 
